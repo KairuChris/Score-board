@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #171559;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 490px;
+  margin: 20px auto;
+}
+.container section {
+  text-align: center;
+}
+.container section h1 {
+  font-size: 40px;
+  color: #e6e3d8;
+}
+.container section .score-container {
+  background-color: #150a2b;
+  width: 145px;
+  height: 90px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 10px;
+}
+.container section .score-container h1 {
+  color: #a61e49;
+  margin: 0;
+  font-size: 60px;
+}
+.container section .button-container {
+  margin-top: 10px;
+}
+.container section .button-container .button {
+  color: #e6e3d8;
+  background-color: #171559;
+  border: 2px solid #e6e3d8;
+  padding: 5px;
+  cursor: pointer;
+}
+.container section .reset {
+  margin-top: 20px;
+  cursor: pointer;
+  width: 70px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e6e3d8;
+  color: #171559;
+  font-weight: bold;
+}
+.container #leading-section {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.container #leading-section p {
+  font-size: 20px;
+  color: #e6e3d8;
+  margin: 0;
+  width: 200px;
+}
+.container #leading-section #leading {
+  font-size: 30px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
